@@ -18,6 +18,45 @@
   font-size: large;
 }
 
+.nav{
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+}
+
+.navlink{
+  margin: .5em;
+  border: 2px solid orange;
+  background: white;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.navlink:hover{
+  background-color: orange;
+}
+
+.selected{
+  margin: .5em;
+  border: 2px solid red;
+  background: white;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.selected:hover{
+  background-color: red;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
