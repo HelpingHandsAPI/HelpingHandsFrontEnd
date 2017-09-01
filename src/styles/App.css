@@ -57,6 +57,43 @@
   width: 100px;
 }
 
+.resource_logo{
+  height: 80px;
+  width: 80px;
+}
+
+.resource-link{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1em;
+}
+
+.resource_header{
+  width: 70%;
+  margin: 0;
+}
+
+.home-main-container{
+  display: flex;
+  align-items: center;
+}
+
+.featured{
+  width: 45%;
+}
+
+.resource_icons{
+  padding: 1em;
+  width: 45%;
+  background-color: red;
+}
+
+.resource-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
