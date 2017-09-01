@@ -5,6 +5,7 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import Home from './components/Home';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import Resource from './components/Resource'
 
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
     <App>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="resource/:type" component={Resource} />
       </Switch>
     </App>
   </BrowserRouter>
