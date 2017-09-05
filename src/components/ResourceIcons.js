@@ -11,36 +11,45 @@ export default class ResourceIcons extends Component {
     let match = this.props.match;
     return(
       <div className="resource_icons">
-          <div className="resource-card">
-            <NavLink className="resource-link" to="/resource/food">
+
+          <NavLink className="resource-link" to="/resource/food">
+            <div className="resource-card">
               <h2 className="resource_header">Food Resources</h2>
               <img className="resource_logo" src={FoodIcon} alt="Food Bank Icon" />
-            </NavLink>
-          </div>
-          <div className="resource-card">
-            <NavLink className="resource-link" to="/resource/shelter">
+            </div>
+          </NavLink>
+
+
+          <NavLink className="resource-link" to="/resource/shelter">
+            <div className="resource-card">
               <h2 className="resource_header">Shelter Resources</h2>
               <img className="resource_logo" src={ShelterIcon} alt="Shelter Icon" />
-            </NavLink>
-          </div>
-          <div className="resource-card">
-            <NavLink className="resource-link" to="/resource/Health">
+            </div>
+          </NavLink>
+
+
+          <NavLink className="resource-link" to="/resource/Health">
+            <div className="resource-card">
               <h2 className="resource_header">Health Resources</h2>
               <img className="resource_logo" src={HealthIcon} alt="Health Icon" />
-            </NavLink>
-          </div>
-          <div className="resource-card">
-            <NavLink className="resource-link" to="/resource/Career">
+            </div>
+          </NavLink>
+
+
+          <NavLink className="resource-link" to="/resource/Career">
+            <div className="resource-card">
               <h2 className="resource_header">Career Resources</h2>
               <img className="resource_logo" src={CareerIcon} alt="Career Icon" />
-            </NavLink>
-          </div>
-          <div className="resource-card">
-            <NavLink className="resource-link" to="/resource/Transport">
+            </div>
+          </NavLink>
+
+
+          <NavLink className="resource-link" to="/resource/Transport">
+            <div className="resource-card">
               <h2 className="resource_header">Transport Resources</h2>
               <img className="resource_logo" src={TransportIcon} alt="Transport Icon" />
-            </NavLink>
-          </div>
+              </div>
+          </NavLink>
       </div>
     )
   }
