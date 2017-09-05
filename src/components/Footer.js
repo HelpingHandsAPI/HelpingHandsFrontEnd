@@ -9,7 +9,7 @@ export default class Footer extends Component {
       <div className="footer">
         <img className="logo" src={logo} alt="Two Hands Logo" />
         <NavLink activeClassName="selected" className="navlink" to="/contact">Contact Us</NavLink>
-        <NavLink activeClassName="selected" className="navlink" to="/adim">Admin</NavLink>
+        <NavLink activeClassName="selected" className="navlink" to="/admin">Admin</NavLink>
       </div>
     )
   }
