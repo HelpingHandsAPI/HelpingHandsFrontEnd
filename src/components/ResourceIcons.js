@@ -8,7 +8,6 @@ import CareerIcon from '../images/career_icon.png';
 
 export default class ResourceIcons extends Component {
   render(){
-    let match = this.props.match;
     return(
       <div className="resource_icons">
 
