@@ -52,6 +52,14 @@
   background-color: red;
 }
 
+.welcome{
+  font-size: 300%;
+}
+
+.subheader{
+  font-size: 200%;
+}
+
 .logo{
   height: 100px;
   width: 100px;
@@ -67,6 +75,13 @@
   display: flex;
   align-items: center;
   margin: 1em;
+  text-decoration: none;
+  color: black;
+  background-color: lightgrey;
+}
+
+.resource-link:hover{
+  box-shadow: 10px 10px 5px 5px #888888;
 }
 
 .resource_header{
@@ -77,21 +92,33 @@
 .home-main-container{
   display: flex;
   align-items: center;
+  justify-content: space-around;
+}
+
+.home-container {
+  background-color: #EEE;
+  padding: .5em;
+  margin-top: .5em;
 }
 
 .featured{
   width: 45%;
+  height: 100%;
+  background-color: green;
 }
 
 .resource_icons{
   padding: 1em;
   width: 45%;
-  background-color: red;
 }
 
 .resource-card{
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid grey;
+  width: 100%;
+  padding: 1em;
+  align-items: center;
 }
 
 @keyframes App-logo-spin {

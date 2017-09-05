@@ -5,6 +5,14 @@ export default class Featured extends Component{
     return(
       <div className="featured">
         <h1>Featured!</h1>
+        <h1>Featured!</h1>
+        <h1>Featured!</h1>
+        <h1>Featured!</h1>
+        <h1>Featured!</h1>
+        <h1>Featured!</h1>
+        <h1>Featured!</h1>
+        <h1>Featured!</h1>
+        <h1>Featured!</h1>
       </div>
     )
   }
