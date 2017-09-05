@@ -44,7 +44,9 @@ export default class Resource extends Component{
       <div>
         {/* Zip */}
         <form action="." method="post">
-            <input type="text" name="zip" placeholder="Enter Zip Code" onChange={this.handleChange}/>
+
+            <input type="text" pattern="[0-9]{5}" name="zip" placeholder="Enter Zip Code" onChange={this.handleChange}/>
+            <br />
             <input type="submit" value="Submit" onClick={this.handleSubmit}/>
         </form>
 
@@ -53,8 +55,11 @@ export default class Resource extends Component{
         {/* City/State */}
         <form action="#" method="post">
             <input type="text" name="city" placeholder="Enter City"onChange={this.handleChange} />
+            <br />
             <input type="text" name="state" placeholder="Enter State" onChange={this.handleChange}/>
+            <br />
             <input type="submit" value="Submit" onClick={this.handleSubmit}/>
+            <br />
         </form>
       </div>
     )
