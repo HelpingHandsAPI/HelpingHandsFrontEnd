@@ -81,7 +81,8 @@
 }
 
 .resource-link:hover{
-  box-shadow: 10px 10px 5px 5px #888888;
+  box-shadow: 5px 5px 5px 5px #888888;
+  border: 1px gold solid;
 }
 
 .resource_header{
@@ -119,6 +120,47 @@
   width: 100%;
   padding: 1em;
   align-items: center;
+}
+
+
+
+.admin-form-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width:60%;
+  padding: 5em;
+  margin: auto;
+  background-color: DarkGrey;
+}
+
+.password {
+  background: url('../images/password_icon.svg') no-repeat;
+  background-color: white;
+  padding-left: 2.5em;
+}
+
+.username {
+  background: url('../images/username_icon.svg') no-repeat;
+  background-color: white;
+  padding-left: 2.5em;
+}
+
+.admin-submit{
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.admin-input {
+  margin-bottom: 3em;
+  height: 2em;
+}
+
+.focus{
+  background-color: LightGoldenrodYellow;
+}
+
+.admin-form-container label {
+  align-self: flex-start;
 }
 
 @keyframes App-logo-spin {
