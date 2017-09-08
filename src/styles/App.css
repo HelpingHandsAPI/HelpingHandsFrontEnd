@@ -163,6 +163,46 @@
   align-self: flex-start;
 }
 
+.dayshelter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+  background-color: LightGoldenRodYellow;
+  width: 100%;
+  height: 100%;
+}
+
+.info{
+  width: 45%;
+  text-align: left;
+  box-shadow: 5px 5px 5px #888888;
+  background-color: white;
+  padding: 1em;
+}
+
+#map{
+  height: 30em;
+  width: 100%;
+  box-shadow: 5px 5px 5px #888888;
+  align-self: baseline;
+}
+
+.shelter-container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.shelter-card{
+  width: 50%;
+  margin: 1em;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 1em;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

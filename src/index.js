@@ -5,9 +5,11 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import Home from './components/Home';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import Resource from './components/Resource'
-import AdminLogin from './components/AdminLogin'
-import Contact from './components/Contact'
+// import Resource from './components/Resource'
+import AdminLogin from './components/AdminLogin';
+import Contact from './components/Contact';
+import ShelterResource from './components/ShelterResource';
+import DayShelter from './components/DayShelter';
 
 
 ReactDOM.render(
@@ -15,7 +17,8 @@ ReactDOM.render(
     <App>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="resource/:type" component={Resource} />
+        <Route path="/resource/shelter" component={ShelterResource} />
+        <Route path="/dayshelter" component={DayShelter} />
         <Route path="/admin/login" component={AdminLogin} />
         <Route path="/contact" component={Contact} />
       </Switch>
